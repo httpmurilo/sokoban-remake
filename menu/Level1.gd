@@ -4,7 +4,7 @@ class_name Button2
 
 export(String, FILE, "*.tscn") var scene_to_load
 
-var _fadeIn := null
+var _fadeIn = null
 
 func initialize(fadeIn: FadeIn):
 	print(fadeIn)
