@@ -1,12 +1,13 @@
 [gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://menu/FadeIn.tscn" type="PackedScene" id=1]
-[ext_resource path="res://assets/sprites/sokoban_tilesheet.png" type="Texture" id=2]
-[ext_resource path="res://assets/sounds/177_Tavern_Music.ogg" type="AudioStream" id=3]
-[ext_resource path="res://assets/sprites/Congratulations.png" type="Texture" id=4]
+[ext_resource path="res://levels/assets/sprites/sokoban_tilesheet.png" type="Texture" id=2]
+[ext_resource path="res://levels/assets/sounds/177_Tavern_Music.ogg" type="AudioStream" id=3]
+[ext_resource path="res://levels/assets/sprites/Congratulations.png" type="Texture" id=4]
 [ext_resource path="res://menu/Button.tscn" type="PackedScene" id=5]
-[ext_resource path="res://assets/menu.png" type="Texture" id=6]
-[ext_resource path="res://assets/menuHover.png" type="Texture" id=7]
+[ext_resource path="res://levels/assets/menu.png" type="Texture" id=6]
+[ext_resource path="res://levels/assets/menuHover.png" type="Texture" id=7]
+
 
 [sub_resource type="GDScript" id=1]
 script/source = "extends Control

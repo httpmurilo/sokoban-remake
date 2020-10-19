@@ -13,11 +13,11 @@ tile_data = PoolIntArray( 0, 4, 0, 1, 4, 0, 2, 4, 0, 3, 4, 0, 4, 4, 0, 5, 4, 0, 
 next_floor = "res://levels/Level2.tscn"
 
 [node name="Player" parent="Floor" instance=ExtResource( 2 )]
-position = Vector2( 480, 353.797 )
+position = Vector2( 478.665, 351.127 )
 z_index = 1
 
 [node name="GridBox" parent="Floor" instance=ExtResource( 3 )]
-position = Vector2( 640.062, 320.305 )
+position = Vector2( 642.732, 321.64 )
 
 [node name="RedPlatform" parent="Floor" instance=ExtResource( 4 )]
 position = Vector2( 864, 353.797 )
