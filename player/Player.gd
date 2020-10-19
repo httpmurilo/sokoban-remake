@@ -2,8 +2,8 @@ extends KinematicBody2D
 
 class_name Player
 
-export var push_speed : = 125.0
-export var move_speed : = 200.0
+export var push_speed : = 900.0
+export var move_speed : = 300.0
 var moving : = false
 var next_position := Vector2()
 var direction := Vector2()
@@ -65,7 +65,7 @@ func check_box_collision(motion: Vector2) -> void:
 	if get_slide_collision(0).collider as TileMap:
 		reset_moving_and_direction()
 		
-	#Isso aqui é pra não empurrar a caixa na horizontal, ou seja o vetor (motion) vai estar (1,1). 1 + 1 = 2	
+	
 	if abs(motion.x) + abs(motion.y) > 1:
 		return
 
