@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/174_Wizards_Tower.ogg-20a5a98198fc3a3c628ea938465312dd.oggstr"
+
+[deps]
+
+source_file="res://levels/assets/sounds/174_Wizards_Tower.ogg"
+dest_files=[ "res://.import/174_Wizards_Tower.ogg-20a5a98198fc3a3c628ea938465312dd.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
